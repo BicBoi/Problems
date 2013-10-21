@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Chapter 3 probs\Furniture.csproj", "{F1F3963E-90B5-418B-BBAA-23B3FB30068E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckZip", "ConsoleApplication2\CheckZip.csproj", "{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F3963E-90B5-418B-BBAA-23B3FB30068E}.Debug|x86.ActiveCfg = Debug|x86
+		{F1F3963E-90B5-418B-BBAA-23B3FB30068E}.Debug|x86.Build.0 = Debug|x86
+		{F1F3963E-90B5-418B-BBAA-23B3FB30068E}.Release|x86.ActiveCfg = Release|x86
+		{F1F3963E-90B5-418B-BBAA-23B3FB30068E}.Release|x86.Build.0 = Release|x86
+		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Debug|x86.ActiveCfg = Debug|x86
+		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Debug|x86.Build.0 = Debug|x86
+		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Release|x86.ActiveCfg = Release|x86
+		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
