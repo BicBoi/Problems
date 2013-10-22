@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Chapter 3 prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckZip", "ConsoleApplication2\CheckZip.csproj", "{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chatawhile", "chatawhile\chatawhile.csproj", "{245606C7-D5BE-447A-B699-CCE01E192B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carprice", "Carprice\Carprice.csproj", "{5CECF470-AB97-4608-9899-3D723139AD20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +23,14 @@ Global
 		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Debug|x86.Build.0 = Debug|x86
 		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Release|x86.ActiveCfg = Release|x86
 		{002B8B5A-EA53-4F5C-BAC4-F6C11B2E91CD}.Release|x86.Build.0 = Release|x86
+		{245606C7-D5BE-447A-B699-CCE01E192B96}.Debug|x86.ActiveCfg = Debug|x86
+		{245606C7-D5BE-447A-B699-CCE01E192B96}.Debug|x86.Build.0 = Debug|x86
+		{245606C7-D5BE-447A-B699-CCE01E192B96}.Release|x86.ActiveCfg = Release|x86
+		{245606C7-D5BE-447A-B699-CCE01E192B96}.Release|x86.Build.0 = Release|x86
+		{5CECF470-AB97-4608-9899-3D723139AD20}.Debug|x86.ActiveCfg = Debug|x86
+		{5CECF470-AB97-4608-9899-3D723139AD20}.Debug|x86.Build.0 = Debug|x86
+		{5CECF470-AB97-4608-9899-3D723139AD20}.Release|x86.ActiveCfg = Release|x86
+		{5CECF470-AB97-4608-9899-3D723139AD20}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
