@@ -9,13 +9,25 @@ namespace Carprice
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Put in the price of your car, asshat.");
+            double Commissions;
             string carPrice = Console.ReadLine();
-            Convert.ToInt32(carPrice);
+            double Value = Convert.ToInt32(carPrice);
 
-            if (carPrice < 15000)
+            if (Value <= 15000)
             {
-
+                Commissions = Value * 0.05;
             }
+
+            else if (Value > 15000 && Value <= 24000)
+            {
+                Commissions = Value * 0.07;
+            }
+            else
+            {
+                Commissions = Value * 0.10;
+            }
+            Console.WriteLine("Your commission is: $" + Commissions);
         }
     }
 }
