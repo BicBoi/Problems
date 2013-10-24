@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commision", "Carprice\Commi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monograms", "Monograms\Monograms.csproj", "{C689206E-19B5-491A-89CE-F313C4286D64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exponent", "Exponent\Exponent.csproj", "{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{C689206E-19B5-491A-89CE-F313C4286D64}.Debug|x86.Build.0 = Debug|x86
 		{C689206E-19B5-491A-89CE-F313C4286D64}.Release|x86.ActiveCfg = Release|x86
 		{C689206E-19B5-491A-89CE-F313C4286D64}.Release|x86.Build.0 = Release|x86
+		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Debug|x86.ActiveCfg = Debug|x86
+		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Debug|x86.Build.0 = Debug|x86
+		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Release|x86.ActiveCfg = Release|x86
+		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,8 +9,17 @@ namespace Monograms
     {
         static void Main(string[] args)
         {
-            DisplayMonogram( "A", "J", "M")
-            DisplayMonogram( "
+            DisplayMonogram( "A", "J", "M");
+            DisplayMonogram("C", "J", "M");
+            Console.ReadKey();
+
         }
+
+        public static void DisplayMonogram(string first, string middle, string last)
+        {
+            Console.WriteLine("** {0}. {1}. {2}. **", first, middle, last);
+        }
+
     }
+
 }
