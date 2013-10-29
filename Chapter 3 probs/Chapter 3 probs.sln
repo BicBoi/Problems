@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monograms", "Monograms\Mono
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exponent", "Exponent\Exponent.csproj", "{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{B0009482-102B-43DA-AF02-4F99526F36F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum", "Integer\Sum.csproj", "{E5771D3F-CD60-4725-A8CB-48E12CD14AF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +47,14 @@ Global
 		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Debug|x86.Build.0 = Debug|x86
 		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Release|x86.ActiveCfg = Release|x86
 		{948F873A-8EAE-4A9B-85A3-5E7334F2B36F}.Release|x86.Build.0 = Release|x86
+		{B0009482-102B-43DA-AF02-4F99526F36F4}.Debug|x86.ActiveCfg = Debug|x86
+		{B0009482-102B-43DA-AF02-4F99526F36F4}.Debug|x86.Build.0 = Debug|x86
+		{B0009482-102B-43DA-AF02-4F99526F36F4}.Release|x86.ActiveCfg = Release|x86
+		{B0009482-102B-43DA-AF02-4F99526F36F4}.Release|x86.Build.0 = Release|x86
+		{E5771D3F-CD60-4725-A8CB-48E12CD14AF8}.Debug|x86.ActiveCfg = Debug|x86
+		{E5771D3F-CD60-4725-A8CB-48E12CD14AF8}.Debug|x86.Build.0 = Debug|x86
+		{E5771D3F-CD60-4725-A8CB-48E12CD14AF8}.Release|x86.ActiveCfg = Release|x86
+		{E5771D3F-CD60-4725-A8CB-48E12CD14AF8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

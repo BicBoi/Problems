@@ -3,23 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Exponent
+namespace P244_4
 {
-    class Program
+    class Exponent
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            string input;
-            int Number;
-            int product;
-            Console.WriteLine("Enter the number");
-            input = Console.ReadLine();
-            Number = Convert.ToInt32(input);
-            product = Number * Number ;
-            Console.WriteLine(product);
-            product = Number * Number * Number;
-            Console.WriteLine(product);
+            Console.Write("Enter integer: ");
+            string input = Console.ReadLine();
+            int integer = Convert.ToInt32(input);
+            Square(integer);
+            Cube(integer);
             Console.ReadKey();
+        }
+
+        public static void Square(int num)
+        {
+            num = (int)Math.Pow(num, 2);
+            Console.WriteLine(num);
+        }
+
+        public static void Cube(int num)
+        {
+            num = (int)Math.Pow(num, 3);
+            Console.WriteLine(num);
         }
     }
 }

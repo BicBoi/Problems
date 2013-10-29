@@ -3,41 +3,38 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication2
+namespace P195_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your zip code and see if we can deliver to you.");
+            string[] ZipCodes = new string[10];
+            ZipCodes[0] = "12345";
+            ZipCodes[1] = "22345";
+            ZipCodes[2] = "32345";
+            ZipCodes[3] = "42345";
+            ZipCodes[4] = "52345";
+            ZipCodes[5] = "62345";
+            ZipCodes[6] = "72345";
+            ZipCodes[7] = "82345";
+            ZipCodes[8] = "92345";
+            ZipCodes[9] = "02345";
 
-            int[] ZipCode = new int[10];
-            ZipCode[0] = 18040;
-            ZipCode[1] = 18042;
-            ZipCode[2] = 18045;
-            ZipCode[3] = 65345;
-            ZipCode[4] = 62435;
-            ZipCode[5] = 61322;
-            ZipCode[6] = 87654;
-            ZipCode[7] = 13554;
-            ZipCode[8] = 12345;
-            ZipCode[9] = 98765;
-
+            Console.Write("Enter your zip code to see if we deliver to you : ");
             string input = Console.ReadLine();
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < ZipCodes.Length; i++)
             {
-                if (input == ZipCode[i].ToString())
+                if (input == ZipCodes[i])
                 {
-                    Console.WriteLine("We can deliver to your zip code.");
-                    
+                    Console.WriteLine("We deliver to you!");
+                    break;
                 }
-                else
+                else if (i == ZipCodes.Length - 1)
                 {
-                    Console.WriteLine("We can't deliver to your zip code.");
+                    Console.WriteLine("Sorry!  We don't deliver to your area!");
                 }
-                break;
             }
-
         }
     }
 }
